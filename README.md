@@ -27,8 +27,8 @@
 
 <img src="./image.png" alt="부여 롯데리조트 1층" width="50%">
 
-다이닝 : https://www.lotteresort.com/buyeo/ko/dining
-편의시설 : https://www.lotteresort.com/buyeo/ko/facility
+- **다이닝** : [바로가기](https://www.lotteresort.com/buyeo/ko/dining)
+- **편의시설** : [바로가기](https://www.lotteresort.com/buyeo/ko/facility)
 
 ## 개인별 안내사항
 
