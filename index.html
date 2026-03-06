@@ -8,16 +8,16 @@
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <style>
         :root {
-            /* Hyundai Steel Colors */
-            --hs-blue: #0033A0;
-            --hs-light-blue: #0056D6;
-            --secondary: #4A5568;
-            --background: #F1F5F9;
+            /* Corporate Steel Theme Colors */
+            --hs-blue: #1A202C; /* Dark steel */
+            --hs-light-blue: #0033A0; /* Brand Blue */
+            --secondary: #718096; /* Silver gray */
+            --background: #F8FAFC;
             --surface: #FFFFFF;
-            --text-main: #1E293B;
-            --text-muted: #64748B;
-            --accent: #E11D48; /* Red accent for worst practice */
-            --success: #059669; /* Green accent for best practice */
+            --text-main: #2D3748;
+            --text-muted: #4A5568;
+            --accent: #E53E3E; 
+            --success: #38A169;
         }
 
         * {
@@ -64,7 +64,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            background: linear-gradient(rgba(0,51,160,0.95), rgba(0,20,70,0.95)), url('image.png') center/cover no-repeat;
+            background: linear-gradient(rgba(26,32,44,0.95), rgba(0,51,160,0.85)), url('image.png') center/cover no-repeat;
             color: white;
             padding-bottom: 3rem;
             position: relative;
@@ -401,12 +401,15 @@
                 </div>
             </div>
 
-            <!-- External Links -->
-            <a href="https://moaform.com/q/6xUQBZ" target="_blank" class="menu-card animate-up delay-3">
-                <div class="menu-icon" style="background: rgba(16,185,129,0.1); color: #10B981;">📝</div>
-                <div>
-                    <div class="menu-title">설문 제출</div>
-                    <div class="menu-desc">결과 공유 및 피드백</div>
+            <!-- External Links - Yonggang Store -->
+            <a href="https://newtalk.hyundai-steel.com/ykstore/" target="_blank" class="menu-card animate-up delay-3" style="grid-column: 1 / -1; background: linear-gradient(135deg, #1E293B, #0033A0); color: white; border: none; padding: 1.5rem 1rem;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎁</div>
+                    <div class="menu-title" style="color: white; font-size: 1.15rem;">용강스토어</div>
+                    <div class="menu-desc" style="color: rgba(255,255,255,0.8); font-size: 0.9rem; text-align: center;">
+                        적극적인 참여를 하는 분들께 <strong>"스크랩"</strong>을 드립니다.<br>
+                        스크랩을 모아 다양한 상품을 바꾸어 보세요!
+                    </div>
                 </div>
             </a>
 
@@ -477,7 +480,7 @@
 
                 <div class="timeline-item">
                     <div class="time">12:00 - 13:00</div>
-                    <div class="event">중식</div>
+                    <div class="event">중식 (산채비빔밥)</div>
                     <div class="speaker">@1F, 본디마슬</div>
                 </div>
 
@@ -501,9 +504,15 @@
                 <div class="timeline-item">
                     <div class="time">16:30 - </div>
                     <div class="event">사장님 말씀 및 석식 간담회</div>
+                    <div class="speaker">석식: 뷔페 (@사비홀)</div>
                 </div>
 
                 <div class="day-divider">2일차 (3/20 금)</div>
+
+                <div class="timeline-item" style="padding-bottom: 0.5rem; margin-bottom: 0.5rem; box-shadow: none; border: 1px dashed #CBD5E1;">
+                    <div class="time" style="color: var(--text-muted);">07:00 - 08:00</div>
+                    <div class="event" style="font-size: 0.95rem;">조식 (황태해장국)</div>
+                </div>
 
                 <div class="timeline-item">
                     <div class="time">08:00 - 09:30</div>
@@ -519,6 +528,7 @@
                 <div class="timeline-item">
                     <div class="time">12:00 - 13:00</div>
                     <div class="event">중식 및 단체버스 복귀</div>
+                    <div class="speaker">중식: 사골김치만두전골</div>
                 </div>
             </div>
         </div>
@@ -667,7 +677,7 @@
             </div>
             
             <div style="margin-top: 2rem; text-align: center;">
-                <a href="https://moaform.com/q/6xUQBZ" target="_blank" style="display:inline-block; background: var(--hs-blue); color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; box-shadow: 0 4px 15px rgba(0,51,160,0.3);">📝 설문 제출하러 가기</a>
+                <!-- 설문 제출 링크 삭제됨 -->
             </div>
         </div>
     </div>
